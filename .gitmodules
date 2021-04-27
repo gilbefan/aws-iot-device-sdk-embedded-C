@@ -52,3 +52,6 @@
 [submodule "libraries/3rdparty/mbedtls"]
 	path = libraries/3rdparty/mbedtls
 	url = https://github.com/ARMmbed/mbedtls
+[submodule "demos/mqtt-agent/coreMQTT-Agent"]
+	path = demos/mqtt-agent/coreMQTT-Agent
+	url = https://github.com/FreeRTOS/coreMQTT-Agent.git
