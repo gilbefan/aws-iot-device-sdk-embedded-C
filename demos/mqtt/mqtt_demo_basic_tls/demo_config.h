@@ -60,6 +60,7 @@
  *
  * #define BROKER_ENDPOINT               "...insert here..."
  */
+#define BROKER_ENDPOINT       "alpha.mqtt.freertos.iot.aws.dev"
 
 /**
  * @brief MQTT server port number.
@@ -72,9 +73,10 @@
  * @brief Path of the file containing the server's root CA certificate.
  *
  * This certificate should be PEM-encoded.
- *
+ * 
  * #define ROOT_CA_CERT_PATH         ".....insert here...."
  */
+#define ROOT_CA_CERT_PATH       "certificates/iotca2.crt"
 
 /**
  * @brief MQTT client identifier.

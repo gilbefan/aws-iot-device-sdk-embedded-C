@@ -267,6 +267,7 @@ static OpensslStatus_t tlsHandshake( const ServerInfo_t * pServerInfo,
         if( sslStatus != 1 )
         {
             LogError( ( "SSL_connect failed to perform TLS handshake." ) );
+            LogError( ( "%d", sslStatus ));
             returnStatus = OPENSSL_HANDSHAKE_FAILED;
         }
     }
